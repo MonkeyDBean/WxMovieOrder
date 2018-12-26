@@ -1,0 +1,10 @@
+<view class="content">
+  <import src="../template/movietpl" />
+  <template is="movies" data="{{movies}}"/>
+</view>
+<!--<view class="body-view">-->
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+  <!--<button type="default" bindtap="loadingTap">点击弹出loading</button>-->
+<!--</view>-->
